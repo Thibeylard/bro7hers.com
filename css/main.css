@@ -32,11 +32,16 @@ header td:first-child, header td:last-child{
   width: 30%;
 }
 
-.menuLink{
+header a:visited, header a:hover, header a{
+  color:white;
+  text-decoration: none;
+}
+
+.menuBox{
   border-bottom : medium solid white;
 }
 
-.menuLink:hover{
+.menuBox:hover, #highlightedMenuBox{
   border-bottom : thick solid white;
 }
 

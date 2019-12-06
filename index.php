@@ -6,7 +6,7 @@
     <title>Bro7hers</title>
   </head>
   <body>
-    <?php include("includes/header.php") ?>
+    <?php include("includes/header.php");?>
     <section> </section>
 
   </body>

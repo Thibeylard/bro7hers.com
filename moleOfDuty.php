@@ -6,21 +6,7 @@
     <title>Bro7hers</title>
   </head>
   <body>
-    <header>
-      <img src="img/logo.png" alt="Logo Bro7hers">
-      <nav>
-        <table>
-          <tr>
-            <td></td>
-            <td class="menuLink"><a>Journal</a></td>
-            <td class="menuLink"><a href="moleOfDuty.html">Mole Of Duty</a></td>
-            <td class="menuLink"><a href="gameOfBox.html">Game of Box</a></td>
-            <td class="menuLink"><a>L'équipe</a></td>
-            <td></td>
-          </tr>
-        </table>
-      </nav>
-    </header>
+    <?php include("includes/header.php") ?>
 
     <section>
       <p>
