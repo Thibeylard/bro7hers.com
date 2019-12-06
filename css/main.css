@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'komika_textregular';
+    src: url('../fonts/KOMTXTREG.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html{
   background-color: black;
   color:white;
@@ -8,6 +15,7 @@ header{
 
 header nav{
   margin-top : 10px;
+  font-family: 'komika_textregular';
 }
 
 header table{
@@ -17,4 +25,12 @@ header table{
 
 header td:first-child, header td:last-child{
   width: 30%;
+}
+
+.menuLink{
+  border-bottom : medium solid white;
+}
+
+.menuLink:hover{
+  border-bottom : thick solid white;
 }
