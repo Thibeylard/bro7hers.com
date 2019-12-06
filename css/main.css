@@ -45,12 +45,24 @@ header a:visited, header a:hover, header a{
   border-bottom : thick solid white;
 }
 
-section{
+.gameSection{
   text-align: center;
 }
-p{
+.gameSection p{
   display: inline-block;
   width:40%;
   margin-top: 50px;
   margin-bottom:50px;
+}
+
+#teamSection table{
+  width: 100%;
+}
+
+#teamSection td:first-child, #teamSection td:last-child{
+  width: 30%;
+}
+
+#teamSection p{
+  text-align: justify;
 }

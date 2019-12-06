@@ -8,7 +8,7 @@
   <body>
     <?php include("includes/header.php") ?>
 
-    <section>
+    <section class="gameSection">
       <p>
         Notre participation au "Underground Jam" sur le site Scirra (Construct 2 et 3) en 2015 !
         Le jeu ? Incarnez un Commando de Taupe dans un jeu de puzzle et de rapidité pour défaire votre pire ennemi, Mr Mecha, le fermier sans scrupules.

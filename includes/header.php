@@ -22,7 +22,7 @@
                   echo "id=\"highlightedMenuBox\"";?>
           ><a href="gameOfBox.php">Game of Box</a></td>
         <td class="menuBox"
-          <?php if($fileName == 'gameOfBox.php')
+          <?php if($fileName == 'team.php')
                   echo "id=\"highlightedMenuBox\"";?>
           ><a href="team.php">L'équipe</a></td>
         <td></td>

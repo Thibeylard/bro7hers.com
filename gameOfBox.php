@@ -8,7 +8,7 @@
   <body>
     <?php include("includes/header.php") ?>
 
-    <section>
+    <section class="gameSection">
       <p>
         Game of BOX a été créé pour le concours Game à Niaque 2015 sur le thème de la "boite".</br>
         Entre quiz et mini-jeux, essayez de battre notre record de 3500 points, et postez vos screens
