@@ -1,10 +1,36 @@
+@font-face {
+    font-family: 'komika_textregular';
+    src: url('../fonts/KOMTXTREG.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html{
   background-color: black;
+  color:white;
 }
 header{
   text-align: center;
 }
-section{
-  text-align:center;
-  color: white;
+
+header nav{
+  margin-top : 10px;
+  font-family: 'komika_textregular';
+}
+
+header table{
+  width:100%;
+  text-align: center;
+}
+
+header td:first-child, header td:last-child{
+  width: 30%;
+}
+
+.menuLink{
+  border-bottom : medium solid white;
+}
+
+.menuLink:hover{
+  border-bottom : thick solid white;
 }
