@@ -5,9 +5,15 @@
     font-style: normal;
 }
 
+/*
+=============================================================================
+------------------------------------------------------------------------GLOBAL
+=============================================================================
+*/
 html{
   background-color: black;
   color:white;
+  font-family: 'komika_textregular';
 }
 header{
   text-align: center;
@@ -15,7 +21,6 @@ header{
 
 header nav{
   margin-top : 10px;
-  font-family: 'komika_textregular';
 }
 
 header table{
@@ -33,4 +38,14 @@ header td:first-child, header td:last-child{
 
 .menuLink:hover{
   border-bottom : thick solid white;
+}
+
+section{
+  text-align: center;
+}
+p{
+  display: inline-block;
+  width:40%;
+  margin-top: 50px;
+  margin-bottom:50px;
 }
