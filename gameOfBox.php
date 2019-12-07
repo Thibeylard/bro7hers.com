@@ -17,6 +17,7 @@
       </br>
       <iframe src="https://itch.io/embed-upload/117126?color=f28112" allowfullscreen="" width="640" height="500" frameborder="0"></iframe>
     </section>
+    <?php include("includes/footer.php");?>
 
   </body>
 </html>
