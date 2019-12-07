@@ -49,6 +49,7 @@ header a:visited, header a:hover, header a{
 .gameSection{
   text-align: center;
 }
+
 .gameSection p{
   display: inline-block;
   width:40%;
@@ -80,4 +81,11 @@ footer img{
     height:64px;
     margin: 5px;
     margin-top:20px;
+}
+
+footer img:hover{
+    width: 70px;
+    height:70px;
+    margin: 2px;
+    margin-top:15px;
 }
