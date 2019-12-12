@@ -20,11 +20,11 @@
             <img src="img/broQuent.png"/>
           </td>
           <td>
-              <h3>Quentin</h3>
+              <h3>Kentyn</h3>
               <p>
                 C'est le leader de notre équipe. La plupart du temps. Ca dépend parfois. Enfin en tout cas c'est lui
                 qui supervise l'aspect graphique du jeu, mais il compose aussi certaines musiques et c'est un générateur de scénario.
-                Il bosse essentiellement sur Krita (et du papier), et sur LMMS pour les musiques.
+                Vous pouvez retrouver tout son travail graphique sur son <a class="classicLink" href="https://www.deviantart.com/kentyn">deviantArt</a>
               </p>
           </td>
           <td>
@@ -40,7 +40,7 @@
             <h3>Gautier</h3>
             <p>
               C'est le peintre musical de la team (et aussi pixel artist intermittent). Il adore aussi dessiner des monstres, mais ça colle pas pour tous les projets.
-              Son enthousiasme et intarissable inspiration l'emportent parfois un peu loin, mais bon des fois, ça aide ! Il utilise LMMS, Finale et PixelEdit.
+              Son enthousiasme et intarissable inspiration l'emportent parfois un peu loin, mais bon des fois, ça aide !
             </p>
           </td>
           <td>
