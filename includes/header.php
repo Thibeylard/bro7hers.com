@@ -12,7 +12,7 @@
         <td class="menuBox"
           <?php if($fileName == 'index.php')
                   echo "id=\"highlightedMenuBox\"";?>
-          ><a href="index.php">Journal</a></td>
+          ><a href="index.php">Tweets</a></td>
         <td class="menuBox"
           <?php if($fileName == 'moleOfDuty.php')
                   echo "id=\"highlightedMenuBox\"";?>

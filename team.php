@@ -24,7 +24,7 @@
               <p>
                 C'est le leader de notre équipe. La plupart du temps. Ca dépend parfois. Enfin en tout cas c'est lui
                 qui supervise l'aspect graphique du jeu, mais il compose aussi certaines musiques et c'est un générateur de scénario.
-                Vous pouvez retrouver tout son travail graphique sur son <a class="classicLink" href="https://www.deviantart.com/kentyn">deviantArt</a>
+                Vous pouvez retrouver tout son travail graphique sur son <a class="classicLink" href="https://www.deviantart.com/kentyn">deviantArt</a> !
               </p>
           </td>
           <td>
@@ -39,7 +39,7 @@
           <td>
             <h3>Gautier</h3>
             <p>
-              C'est le peintre musical de la team (et aussi pixel artist intermittent). Il adore aussi dessiner des monstres, mais ça colle pas pour tous les projets.
+              C'est le peintre musical de la team (et pixel artist intermittent). Il adore aussi dessiner des monstres, mais ça colle pas pour tous les projets.
               Son enthousiasme et intarissable inspiration l'emportent parfois un peu loin, mais bon des fois, ça aide !
             </p>
           </td>

@@ -38,6 +38,15 @@ header a:visited, header a:hover, header a{
   text-decoration: none;
 }
 
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:visited{
+  color: orange;
+}
+
 .menuBox{
   border-bottom : medium solid white;
 }
