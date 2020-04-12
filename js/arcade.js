@@ -1,10 +1,26 @@
 initialize();
 
 function initialize () {
-    $("#selectedBro").html(GetURLParameter("bro"));
+    setBro(GetURLParameter("bro"));
     $("#selectedGame").html(GetURLParameter("game"));
 }
 
+function setBro(broName) {
+    if(broName === "kent") {
+        $("#selectedBroName").html("Kentyn")
+        $("#selectedBroPicture").attr("src","img/broKent.png")
+    }
+
+    if(broName === "gaut") {
+        $("#selectedBroName").html("Gautier")
+        $("#selectedBroPicture").attr("src","img/broGaut.png")
+    }
+
+    if(broName === "thib") {
+        $("#selectedBroName").html("Thibaut")
+        $("#selectedBroPicture").attr("src","img/broThib.png")
+    }
+}
 /**
  * @return {string}
  */
