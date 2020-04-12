@@ -22,11 +22,11 @@
     </section>
     <section id="gameSection">
         <h2 class="pixelTitle">SELECT THE LEVEL</h2>
-        <div>
+        <div id="gameScroll">
             <div class="gameWrapper">
                 <img class="gamePicture" src="img/gobBanner.png">
                 <p class="gameDescription plainText">
-                    Game of BOX a été créé pour le concours Game à Niaque 2015 sur le thème de la "boite".</br>
+                    Game of BOX a été créé pour le concours Game à Niaque 2015 sur le thème de la "boite".
                     Entre quiz et mini-jeux, essayez de battre notre record de 3500 points, et postez vos screens
                     sur notre page Facebook !
                 </p>
@@ -35,7 +35,8 @@
                 <img class="gamePicture" src="img/modBanner.png">
                 <p class="gameDescription plainText">
                     Notre participation au "Underground Jam" sur le site Scirra (Construct 2 et 3) en 2015 !
-                    Le jeu ? Incarnez un Commando de Taupe dans un jeu de puzzle et de rapidité pour défaire votre pire ennemi, Mr Mecha, le fermier sans scrupules.
+                    Le jeu ? Incarnez un Commando de Taupe dans un jeu de puzzle et de rapidité pour défaire votre pire ennemi,
+                    Mr Mecha, le fermier sans scrupules.
                 </p>
             </div>
         </div>
