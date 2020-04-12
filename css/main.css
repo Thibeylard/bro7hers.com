@@ -249,6 +249,7 @@ footer img:hover{
 
 #gameCartridge img {
     position: relative;
+    top:20px;
     width:480px;
     animation-name: insert;
     animation-duration: 4s;
@@ -257,7 +258,7 @@ footer img:hover{
 
 #arcadeNavbar img {
     margin-top:40px;
-    width : 150px;
+    width : 130px;
     animation-name: blink;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -286,5 +287,5 @@ footer img:hover{
 @keyframes insert {
     0% {top: -40px}
     60% {top:-40px}
-    100% {top:0}
+    100% {top:20px}
 }
