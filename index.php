@@ -57,14 +57,8 @@
         <img class="broPicture" id="gautPicture" src="img/broGaut.png"/>
         <img class="broPicture" id="thibPicture" src="img/broThib.png"/>
     </nav>
-    <h3 class="smallTitle">Kentyn</h3>
+    <h3 id="broName" class="smallTitle"></h3>
     <p id="broDescription" class="kapsText">
-        C'est le leader de notre équipe. La plupart du temps. Ca dépend parfois. Enfin en tout cas c'est lui
-        qui supervise l'aspect graphique du jeu, mais il compose aussi certaines musiques et c'est un générateur de
-        scénario.
-        Vous pouvez retrouver tout son travail graphique sur son <a class="classicLink"
-                                                                    href="https://www.deviantart.com/kentyn">deviantArt</a>
-        !
     </p>
 </section>
 <script src="js/broSelection.js"></script>

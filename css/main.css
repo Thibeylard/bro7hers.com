@@ -115,6 +115,7 @@ div.gameWrapper {
     margin: auto;
     text-align: center;
     display: inline-block;
+    position:relative;
 }
 
 p.gameDescription {
