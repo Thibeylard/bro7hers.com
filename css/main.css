@@ -1,10 +1,176 @@
+@font-face {
+    font-family: 'komikaText-kaps';
+    src: url('../fonts/KomikaText-Kaps.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'komikaText-regular';
+    src: url('../fonts/KomikaText.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'komikaTitle-axis';
+    src: url('../fonts/KomikaTitle-Axis.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'silkscreen-bold';
+    src: url('../fonts/SilkscreenTitle-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+=============================================================================
+------------------------------------------------------------------------GLOBAL
+=============================================================================
+*/
 html{
   background-color: black;
 }
 header{
   text-align: center;
 }
-section{
-  text-align:center;
-  color: white;
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h2.sectionTitle {
+    color: white;
+    font-family: 'komikaTitle-axis', sans-serif;
+    letter-spacing: 3px;
+}
+
+h2.pixelTitle {
+    color:red;
+    font-family: 'silkscreen-bold', sans-serif;
+    font-size: 1.8em;
+    margin-top:50px;
+}
+
+h3.smallTitle {
+    color: white;
+    font-family: 'komikaTitle-axis', sans-serif;
+    letter-spacing: 3px;
+    font-size: 1.3em;
+}
+
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited{
+    color: orange;
+}
+
+p.plainText {
+    color:white;
+    font-family: 'komikaText-regular', sans-serif;
+}
+
+p.kapsText {
+    color:white;
+    font-family: 'komikaText-kaps', sans-serif;
+    font-size : 1.1em;
+    text-align: justify;
+}
+
+p {
+    width:50%;
+    text-align: left;
+    margin: 10px auto;
+}
+
+.bold {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+img.gamePicture {
+    width: 45%;
+}
+
+#gameSection {
+    text-align: center;
+}
+
+#gameScroll {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+}
+
+div.gameWrapper {
+    flex:none;
+    width:100%;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+    position:relative;
+}
+
+p.gameDescription {
+    text-align: justify;
+    width:70%;
+}
+
+.arrows {
+    position:relative;
+    top:120px;
+    width:80px;
+    height:80px;
+    z-index: 1000;
+}
+
+.leftArrow {
+    left:27%;
+    float:left;
+}
+
+.rightArrow {
+    right:27%;
+    float:right;
+}
+
+#broNavbar {
+    text-align: center;
+}
+
+img.broPicture {
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    filter: blur(2px);
+}
+
+footer{
+    text-align: center;
+    border-top: solid medium white;
+    width: 40%;
+    margin: auto;
+    margin-top:30px;
+}
+
+footer img{
+    width: 64px;
+    height:64px;
+    margin: 5px;
+    margin-top:20px;
+}
+
+footer img:hover{
+    width: 70px;
+    height:70px;
+    margin: 2px;
+    margin-top:15px;
 }
