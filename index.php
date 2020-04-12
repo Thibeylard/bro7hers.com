@@ -24,8 +24,19 @@
         <h2 class="pixelTitle">SELECT THE LEVEL</h2>
         <div>
             <div class="gameWrapper">
-                <img class="gamePicture">
-                <p class="gameDescription plainText"></p>
+                <img class="gamePicture" src="img/gobBanner.png">
+                <p class="gameDescription plainText">
+                    Game of BOX a été créé pour le concours Game à Niaque 2015 sur le thème de la "boite".</br>
+                    Entre quiz et mini-jeux, essayez de battre notre record de 3500 points, et postez vos screens
+                    sur notre page Facebook !
+                </p>
+            </div>
+            <div class="gameWrapper">
+                <img class="gamePicture" src="img/modBanner.png">
+                <p class="gameDescription plainText">
+                    Notre participation au "Underground Jam" sur le site Scirra (Construct 2 et 3) en 2015 !
+                    Le jeu ? Incarnez un Commando de Taupe dans un jeu de puzzle et de rapidité pour défaire votre pire ennemi, Mr Mecha, le fermier sans scrupules.
+                </p>
             </div>
         </div>
         <nav id="gameNavbar"></nav>
@@ -33,12 +44,16 @@
     <section id="broSection">
         <h2 class="pixelTitle">SELECT YOUR BRO</h2>
         <nav id="broNavbar">
-            <img class="broPicture" id="kentPicture"/>
-            <img class="broPicture" id="gautPicture"/>
-            <img class="broPicture" id="thibPicture"/>
+            <img class="broPicture" id="kentPicture" src="img/broQuent.png"/>
+            <img class="broPicture" id="gautPicture" src="img/broGaut.png"/>
+            <img class="broPicture" id="thibPicture" src="img/broThib.png"/>
         </nav>
-        <h3 class="smallTitle"></h3>
-        <p id="broDescription" class="plainText"></p>
+        <h3 class="smallTitle">Kentyn</h3>
+        <p id="broDescription" class="kapsText">
+            C'est le leader de notre équipe. La plupart du temps. Ca dépend parfois. Enfin en tout cas c'est lui
+            qui supervise l'aspect graphique du jeu, mais il compose aussi certaines musiques et c'est un générateur de scénario.
+            Vous pouvez retrouver tout son travail graphique sur son <a class="classicLink" href="https://www.deviantart.com/kentyn">deviantArt</a> !
+        </p>
     </section>
     <?php include("includes/footer.php");?>
   </body>

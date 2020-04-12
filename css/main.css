@@ -1,19 +1,26 @@
 @font-face {
-    font-family: 'komika_textregular';
+    font-family: 'komikaText-kaps';
+    src: url('../fonts/KomikaText-Kaps.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'komikaText-regular';
     src: url('../fonts/KomikaText.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'komika_title_axis';
+    font-family: 'komikaTitle-axis';
     src: url('../fonts/KomikaTitle-Axis.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'silkscreenbold';
+    font-family: 'silkscreen-bold';
     src: url('../fonts/SilkscreenTitle-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -26,23 +33,83 @@
 */
 html{
   background-color: black;
-  color:white;
-  font-family: 'komika_textregular';
-  text-align: center;
 }
 header{
   text-align: center;
 }
 
-header td:first-child, header td:last-child{
-  width: 30%;
+h1, h2, h3 {
+    text-align: center;
+}
+
+h2.sectionTitle {
+    color: white;
+    font-family: 'komikaTitle-axis', sans-serif;
+    letter-spacing: 3px;
+}
+
+h2.pixelTitle {
+    color:red;
+    font-family: 'silkscreen-bold', sans-serif;
+}
+
+h3.smallTitle {
+    color: white;
+    font-family: 'komikaTitle-axis', sans-serif;
+    letter-spacing: 3px;
+    font-size: 1.3em;
+}
+
+p.plainText {
+    color:white;
+    font-family: 'komikaText-regular', sans-serif;
+}
+
+p.kapsText {
+    color:white;
+    font-family: 'komikaText-kaps', sans-serif;
+}
+
+p {
+    width:50%;
+    text-align: left;
+    margin: 10px auto;
+}
+
+img.gamePicture {
+    width: 45%;
+}
+
+#gameSection {
+    text-align: center;
+}
+div.gameWrapper {
+    width:90%;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+}
+
+p.gameDescription {
+    text-align: justify;
+}
+
+#broNavbar {
+    text-align: center;
+}
+
+img.broPicture {
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 footer{
-  text-align: center;
-  border-top: solid medium white;
-  width: 40%;
-  display: inline-block;
+    text-align: center;
+    border-top: solid medium white;
+    width: 40%;
+    display: inline-block;
 }
 
 footer img{
