@@ -16,21 +16,18 @@ var broInfos = {
         "j'ai fait le site."
 }
 
-$(".broPicture").click(function () {
-    if($(this).attr("id") === broId) {
-        $(this).css("filter", "blur(2px)");
-        $(this).css("border", "none");
-        $("#broName").html('');
-        $("#broDescription").html('');
-        broId = "";
-    } else {
-        $(this).css("filter", "none");
-        $(this).css("border", "dashed 4px red");
-        broId = $(this).attr("id");
-        $(`.broPicture[id!=${broId}]`).css("filter", "blur(2px)");
-        $(`.broPicture[id!=${broId}]`).css("border", "none");
-        $("#broName").html(broInfos[`${broId}Name`]);
-        $("#broDescription").html(broInfos[`${broId}Description`]);
-    }
+broId = "kentPicture";
+$(`.broPicture[id=${broId}]`).css("filter", "none");
+$(`.broPicture[id=${broId}]`).css("border", "dashed 4px red");
+$("#broName").html(broInfos[`${broId}Name`]);
+$("#broDescription").html(broInfos[`${broId}Description`]);
 
+$(".broPicture").click(function () {
+    $(this).css("filter", "none");
+    $(this).css("border", "dashed 4px red");
+    broId = $(this).attr("id");
+    $(`.broPicture[id!=${broId}]`).css("filter", "blur(2px)");
+    $(`.broPicture[id!=${broId}]`).css("border", "none");
+    $("#broName").html(broInfos[`${broId}Name`]);
+    $("#broDescription").html(broInfos[`${broId}Description`]);
 });

@@ -131,6 +131,10 @@ p.gameDescription {
     z-index: 1000;
 }
 
+.arrows:hover, .broPicture:hover {
+    cursor: pointer;
+}
+
 .leftArrow {
     left:27%;
     float:left;
