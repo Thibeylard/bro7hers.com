@@ -62,6 +62,7 @@
     </p>
 </section>
 <script src="js/broSelection.js"></script>
+<script src="js/gameSelection.js"></script>
 <?php include("includes/footer.php"); ?>
 </body>
 </html>
