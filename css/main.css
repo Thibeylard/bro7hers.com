@@ -38,6 +38,11 @@ header{
   text-align: center;
 }
 
+#logo {
+    width :35%;
+    margin-top:75px;
+}
+
 h1, h2, h3 {
     text-align: center;
 }
