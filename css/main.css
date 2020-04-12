@@ -149,6 +149,43 @@ p.gameDescription {
     text-align: center;
 }
 
+#arcadeLink + .pixelTitle {
+    margin-top: 0;
+    animation-name: pressStart;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: step-start;
+}
+
+#arcadeLink {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#arcadeLink img {
+    width:150px;
+}
+#arcadeLink img:hover {
+    cursor: pointer;
+    animation-name: shakeArcade;
+    animation-iteration-count: 3;
+    animation-duration: 0.2s;
+}
+
+@keyframes shakeArcade {
+    0% {transform: rotate(0deg)}
+    25% {transform: rotate(20deg)}
+    50% {transform: rotate(0deg)}
+    75% {transform: rotate(-20deg)}
+    100% {transform: rotate(0deg)}
+}
+
+@keyframes pressStart {
+    0% {opacity: 100%}
+    50% {opacity: 0%}
+    100% {opacity: 100%}
+}
+
 img.broPicture {
     width: 150px;
     height: 150px;
