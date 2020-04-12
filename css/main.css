@@ -84,7 +84,7 @@ p.kapsText {
     text-align: justify;
 }
 
-p {
+p.kapsText {
     width:50%;
     text-align: left;
     margin: 10px auto;
@@ -177,4 +177,65 @@ footer img:hover{
     height:70px;
     margin: 2px;
     margin-top:15px;
+}
+
+
+.heart {
+    width:20px;
+    height:20px;
+}
+
+#playerBar * {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+#playerBar {
+    margin-bottom: 20px;
+}
+
+#selectedBroName {
+    color:white;
+    font-family: 'silkscreen-bold', sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+
+#selectedBroPicture {
+    width:120px;
+}
+
+#playerBar, #gameCartridge, #arcadeNavbar, #arcadeSection {
+    text-align: center;
+}
+
+#gameCartridge img {
+    width:480px;
+}
+
+#arcadeNavbar img {
+    margin-top:40px;
+    width : 150px;
+    animation-name: blink;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+    0% {opacity: 100%;}
+    5% {opacity: 50%;}
+    10% {opacity: 70%;}
+    15% {opacity: 10%;}
+    20% {opacity: 100%;}
+    22% {opacity: 30%;}
+    25% {opacity: 60%;}
+    27% {opacity: 20%;}
+    40% {opacity: 100%;}
+    43% {opacity: 30%;}
+    48% {opacity: 50%;}
+    50% {opacity: 20%;}
+    53% {opacity: 80%;}
+    55% {opacity: 40%;}
+    60% {opacity: 100%;}
 }
