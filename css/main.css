@@ -1,6 +1,20 @@
 @font-face {
     font-family: 'komika_textregular';
-    src: url('../fonts/KOMTXTREG.woff') format('woff');
+    src: url('../fonts/KomikaText.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'komika_title_axis';
+    src: url('../fonts/KomikaTitle-Axis.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'silkscreenbold';
+    src: url('../fonts/SilkscreenTitle-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -20,62 +34,8 @@ header{
   text-align: center;
 }
 
-header nav{
-  margin-top : 10px;
-}
-
-header table{
-  width:100%;
-  text-align: center;
-}
-
 header td:first-child, header td:last-child{
   width: 30%;
-}
-
-header a:visited, header a:hover, header a{
-  color:white;
-  text-decoration: none;
-}
-
-a {
-  color: red;
-  text-decoration: none;
-}
-
-a:visited{
-  color: orange;
-}
-
-.menuBox{
-  border-bottom : medium solid white;
-}
-
-.menuBox:hover, #highlightedMenuBox{
-  border-bottom : thick solid white;
-}
-
-.gameSection{
-  text-align: center;
-}
-
-.gameSection p{
-  display: inline-block;
-  width:40%;
-  margin-top: 50px;
-  margin-bottom:50px;
-}
-
-#teamSection table{
-  width: 100%;
-}
-
-#teamSection td:first-child, #teamSection td:last-child{
-  width: 30%;
-}
-
-#teamSection p{
-  text-align: justify;
 }
 
 footer{
