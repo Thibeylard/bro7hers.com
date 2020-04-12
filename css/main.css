@@ -52,6 +52,7 @@ h2.pixelTitle {
     color:red;
     font-family: 'silkscreen-bold', sans-serif;
     font-size: 1.8em;
+    margin-top:50px;
 }
 
 h3.smallTitle {
@@ -129,6 +130,7 @@ img.broPicture {
     height: 150px;
     margin-left: 20px;
     margin-right: 20px;
+    filter: blur(2px);
 }
 
 footer{
