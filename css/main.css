@@ -51,6 +51,7 @@ h2.sectionTitle {
 h2.pixelTitle {
     color:red;
     font-family: 'silkscreen-bold', sans-serif;
+    font-size: 1.8em;
 }
 
 h3.smallTitle {
@@ -68,6 +69,8 @@ p.plainText {
 p.kapsText {
     color:white;
     font-family: 'komikaText-kaps', sans-serif;
+    font-size : 1.1em;
+    text-align: justify;
 }
 
 p {
