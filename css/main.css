@@ -192,7 +192,7 @@ footer img:hover{
 }
 
 #playerBar {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 #selectedBroName {
@@ -211,7 +211,11 @@ footer img:hover{
 }
 
 #gameCartridge img {
+    position: relative;
     width:480px;
+    animation-name: insert;
+    animation-duration: 4s;
+    z-index: -10000;
 }
 
 #arcadeNavbar img {
@@ -220,6 +224,8 @@ footer img:hover{
     animation-name: blink;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+    z-index: -1;
+    cursor:pointer;
 }
 
 @keyframes blink {
@@ -238,4 +244,10 @@ footer img:hover{
     53% {opacity: 80%;}
     55% {opacity: 40%;}
     60% {opacity: 100%;}
+}
+
+@keyframes insert {
+    0% {top: -40px}
+    60% {top:-40px}
+    100% {top:0}
 }
