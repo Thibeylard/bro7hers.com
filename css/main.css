@@ -120,6 +120,25 @@ div.gameWrapper {
 
 p.gameDescription {
     text-align: justify;
+    width:70%;
+}
+
+.arrows {
+    position:relative;
+    top:120px;
+    width:80px;
+    height:80px;
+    z-index: 1000;
+}
+
+.leftArrow {
+    left:27%;
+    float:left;
+}
+
+.rightArrow {
+    right:27%;
+    float:right;
 }
 
 #broNavbar {

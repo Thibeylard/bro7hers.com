@@ -29,8 +29,13 @@
 </section>
 <section id="gameSection">
     <h2 class="pixelTitle">SELECT THE LEVEL</h2>
+    <nav id="gameNavbar">
+        <img src="img/leftArrow.png" class="arrows leftArrow">
+        <img src="img/rightArrow.png" class="arrows rightArrow"></nav>
     <div id="gameScroll">
         <div class="gameWrapper">
+           <!-- <nav id="gameNavbar">
+                <img src="img/rightArrow.png" class="arrows rightArrow"></nav> -->
             <img class="gamePicture" src="img/gobBanner.png">
             <p class="gameDescription kapsText">
                 Game of BOX a été créé pour le concours Game à Niaque 2015 sur le thème de la "boite".
@@ -39,6 +44,7 @@
             </p>
         </div>
         <div class="gameWrapper">
+         <!--   <nav id="gameNavbar"><img src="img/leftArrow.png" class="arrows leftArrow"></nav> -->
             <img class="gamePicture" src="img/modBanner.png">
             <p class="gameDescription kapsText">
                 Notre participation au "Underground Jam" sur le site Scirra (Construct 2 et 3) en 2015 !
@@ -48,7 +54,6 @@
             </p>
         </div>
     </div>
-    <nav id="gameNavbar"></nav>
 </section>
 <section id="broSection">
     <h2 class="pixelTitle">SELECT YOUR BRO</h2>
