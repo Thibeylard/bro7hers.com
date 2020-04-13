@@ -86,8 +86,8 @@ function isMaxScrollLeft() {
 }
 
 
-$("#arcadeLink img").click(function() {
+$("#consoleLink img").click(function() {
     let selectedBro = broId.split("-")[0];
     let selectedGame = games[currentScrollIndex];
-    window.location.href = `arcade.html?bro=${selectedBro}&game=${selectedGame}`;
+    window.location.href = `console.html?bro=${selectedBro}&game=${selectedGame}`;
 });

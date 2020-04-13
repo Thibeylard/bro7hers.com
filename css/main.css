@@ -149,7 +149,7 @@ p.gameDescription {
     text-align: center;
 }
 
-#arcadeLink + .pixelTitle {
+#consoleLink + .pixelTitle {
     margin-top: 0;
     animation-name: pressStart;
     animation-iteration-count: infinite;
@@ -157,15 +157,15 @@ p.gameDescription {
     animation-timing-function: step-start;
 }
 
-#arcadeLink {
+#consoleLink {
     text-align: center;
     margin-top: 40px;
 }
 
-#arcadeLink img {
-    width:150px;
+#consoleLink img {
+    width:100px;
 }
-#arcadeLink img:hover {
+#consoleLink img:hover {
     cursor: pointer;
     animation-name: shakeArcade;
     animation-iteration-count: 3;
@@ -243,7 +243,7 @@ footer img:hover{
     width:120px;
 }
 
-#playerBar, #gameCartridge, #arcadeNavbar, #arcadeSection {
+#playerBar, #gameCartridge, #consoleNavbar, #consoleSection {
     text-align: center;
 }
 
@@ -256,7 +256,7 @@ footer img:hover{
     z-index: -10000;
 }
 
-#arcadeNavbar img {
+#consoleNavbar img {
     margin-top:40px;
     width : 130px;
     animation-name: blink;
