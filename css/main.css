@@ -89,7 +89,7 @@ p.kapsText {
     text-align: justify;
 }
 
-p {
+p.kapsText {
     width:50%;
     text-align: left;
     margin: 10px auto;
@@ -154,6 +154,43 @@ p.gameDescription {
     text-align: center;
 }
 
+#consoleLink + .pixelTitle {
+    margin-top: 0;
+    animation-name: pressStart;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: step-start;
+}
+
+#consoleLink {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#consoleLink img {
+    width:100px;
+}
+#consoleLink img:hover {
+    cursor: pointer;
+    animation-name: shakeArcade;
+    animation-iteration-count: 3;
+    animation-duration: 0.2s;
+}
+
+@keyframes shakeArcade {
+    0% {transform: rotate(0deg)}
+    25% {transform: rotate(20deg)}
+    50% {transform: rotate(0deg)}
+    75% {transform: rotate(-20deg)}
+    100% {transform: rotate(0deg)}
+}
+
+@keyframes pressStart {
+    0% {opacity: 100%}
+    50% {opacity: 0%}
+    100% {opacity: 100%}
+}
+
 img.broPicture {
     width: 150px;
     height: 150px;
@@ -182,4 +219,78 @@ footer img:hover{
     height:70px;
     margin: 2px;
     margin-top:15px;
+}
+
+
+.heart {
+    width:20px;
+    height:20px;
+}
+
+#playerBar * {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+#playerBar {
+    margin-bottom: 40px;
+}
+
+#selectedBroName {
+    color:white;
+    font-family: 'silkscreen-bold', sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+
+#selectedBroPicture {
+    width:120px;
+}
+
+#playerBar, #gameCartridge, #consoleNavbar, #consoleSection {
+    text-align: center;
+}
+
+#gameCartridge img {
+    position: relative;
+    top:20px;
+    width:480px;
+    animation-name: insert;
+    animation-duration: 4s;
+    z-index: -10000;
+}
+
+#consoleNavbar img {
+    margin-top:40px;
+    width : 130px;
+    animation-name: blink;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    z-index: -1;
+    cursor:pointer;
+}
+
+@keyframes blink {
+    0% {opacity: 100%;}
+    5% {opacity: 50%;}
+    10% {opacity: 70%;}
+    15% {opacity: 10%;}
+    20% {opacity: 100%;}
+    22% {opacity: 30%;}
+    25% {opacity: 60%;}
+    27% {opacity: 20%;}
+    40% {opacity: 100%;}
+    43% {opacity: 30%;}
+    48% {opacity: 50%;}
+    50% {opacity: 20%;}
+    53% {opacity: 80%;}
+    55% {opacity: 40%;}
+    60% {opacity: 100%;}
+}
+
+@keyframes insert {
+    0% {top: -40px}
+    60% {top:-40px}
+    100% {top:20px}
 }
